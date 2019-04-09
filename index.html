@@ -4,20 +4,25 @@
 	<title>Your Today's Message</title>
 	<meta name=”viewport” content=”width=device-width, initial-scale=1″>
 	<script defer type="text/javascript" src="script.js"></script>
+	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
 </head>
-<body>
-	<div style="width: 500px;">
+<body style="text-align: center; background-color: #f7efef;">
+	<div>
 		<div id='login'>
 		<label>Password: </label><input type="" name="" id="password">
 		<button onclick="submit()">Submit</button>
 	</div>
 	<div id="messagediv" class="messagediv">		
+		<h1 style="font-size: 100px"><i class="em em-sunny"></i>Good Morning<i class="em em-sunny"></i></h1>
 	</div>	
 	</div>		
 	<style type="text/css">
+		label{
+			font-size: 50px;
+		}
 		input{
-			width: 200px;
-    		height: 20px;
+			width: 250px;
+    		height: 30px;
 		}
 		body{
 			font-size: 30px;
@@ -25,7 +30,7 @@
 		}
 		button{
 			width: 100px;
-    		height: 27px;
+    		height: 35px;
     		background-color: orange;
     		border: 0px;
 		}
