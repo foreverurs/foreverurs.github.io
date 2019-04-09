@@ -10,7 +10,7 @@ login.style.display='block';
 messagediv.style.display='none';
 
 function submit(){
-	if((document.getElementById('password').value).toLowerCase()=='manjul'){
+	if((document.getElementById('password').value).toLowerCase()=='dilse'||(document.getElementById('password').value).toLowerCase()=='dil se'){
 		login.style.display='none';
 		messagediv.style.display='block';
 		let array=message.split('+');
