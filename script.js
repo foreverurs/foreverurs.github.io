@@ -7,7 +7,13 @@ const message2 =`Dil Ke Kone Se Ek Awaaz Aati Hai+
 				 Dil Puchta Hai Bar Bar Hamse+
 				 Ke Jitna Hum Yaad Karte Hai Unhe+
 				 Kya Unhe Bhi Hmari Yaad Aati Hai`
+var message3 = `Diwaana Hun Tera Mujhe Inkar Toh Nahi+
+                              Kaise Main Keh Dun Mujhe Pyaar Nahi+
+                              Kuch Shararat Toh Teri Nigahon Ki Bhi Thi+
+                              Mai Akela Iska Gunahgar Toh Nahi`
+
 let data=[];
+data.push(message3);
 data.push(message2);
 data.push(message1);
 let login=document.getElementById('login');
