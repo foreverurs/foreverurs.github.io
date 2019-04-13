@@ -15,8 +15,12 @@ const message4 = `Zindagi Mai Koi Pyaar Se Pyaara Ni Milta+
                                  Zindagi Mai Koi Pyaar Se Pyaara Ni Milta+
                                  Jo Hai Pass Apke Usko Sambhal Kar Rakhna+
                                  Kyunki Ek Bar Kho Kar Pyaar Dubara Ni Milta`
+const message5 = `Chupke se dhadkan me utar jaayenge,+ 
+		  Raahen Ulfat me had se guzar jaayenge,+ 
+		  Aap jo hamen itna chahenge, +
+		  Hum to aapki saanson me pighal jaayenge.`
 let data=[];
-
+data.push(message5);
 data.push(message4);
 data.push(message3);
 data.push(message2);
