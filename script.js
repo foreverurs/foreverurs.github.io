@@ -19,6 +19,7 @@ const message5 = `Chupke se dhadkan me utar jaayenge,+
 		  Raahen Ulfat me had se guzar jaayenge,+ 
 		  Aap jo hamen itna chahenge, +
 		  Hum to aapki saanson me pighal jaayenge.`
+console.log(new Date());
 let data=[];
 data.push(message5);
 data.push(message4);
